@@ -1,4 +1,5 @@
 # Elementos pares e impares de la matriz.
+import random 
 
 b = []
 c = []
@@ -21,7 +22,7 @@ for i in range(m):
   if M[i][j] % 2 == 0:
    b.append(M[i][j])
 else:
- c.append(M[i][j])
+    c.append(M[i][j])
 
 # output
 print("Elementos pares de la matriz:", b)
